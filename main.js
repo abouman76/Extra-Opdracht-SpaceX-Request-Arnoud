@@ -5,9 +5,9 @@
 // [x] .gitignore maken.
 // [x] AXIOS installeren. -> npm install axios _(library)_
 // [x] AXIOS script linken.
-// [ ] Een async function maken en **aanroepen**!
-// [ ] Request maken met AXIOS.
-// [ ] Afwachten tot de data er is.
+// [x] Een async function maken en **aanroepen**!
+// [x] Request maken met AXIOS.
+// [x] Afwachten tot de data er is.
 // [ ] Data weergeven in de DOM.
 //     - [ ] Lijst maken met een id.
 //     - [ ] Lijst selecteren.
@@ -16,5 +16,13 @@
 //          - [ ] textContent toevoegen.
 //          - [ ] li appenden.
 
+async function dataSpaceX() {
+    console.log("Wat log ik?")
+    const responseFromApi = await axios.get(
+        "https://api.spacexdata.com/v4/launches"
+    );
+    console.log("What is the response from the API?", responseFromApi);
+}
 
+dataSpaceX();
 
