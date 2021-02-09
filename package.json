@@ -1,0 +1,14 @@
+{
+  "name": "extra-api-request-excersise",
+  "version": "1.0.0",
+  "description": "SpaceX verwerkingsopdracht",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arnoud Bouman",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
